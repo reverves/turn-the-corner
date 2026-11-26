@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Turn the Corner – Digital Liner Notes ダウンロード</title>
+<title>Turn the Corner – Digital Liner Notes</title>
 <style>
   body { margin:0; background:#243620; color:#f1e8d2; font-family:-apple-system, "Hiragino Sans", sans-serif;
          display:flex; justify-content:center; }
@@ -16,6 +16,10 @@
           color:#f1e8d2; text-decoration:none; }
   a.btn .t { font-size:17px; }
   a.btn .d { font-size:12.5px; color:#b9ac8d; margin-top:6px; line-height:1.7; }
+  h2 { font-size:13px; color:#c9a86a; letter-spacing:.22em; margin-top:44px; font-weight:600; }
+  a.dl { display:block; margin-top:14px; padding:14px 18px; border:1px solid #55643f; border-radius:12px;
+         color:#f1e8d2; text-decoration:none; font-size:15px; }
+  a.dl .d { font-size:12px; color:#b9ac8d; margin-top:5px; line-height:1.7; }
   .note { font-size:12.5px; color:#b9ac8d; line-height:1.9; margin-top:30px; }
 </style>
 </head>
@@ -24,17 +28,26 @@
   <div class="album">Turn the Corner</div>
   <div class="band">リバーヴス</div>
   <div class="label">DIGITAL LINER NOTES</div>
-  <p>購入者特典のインタラクティブ版ライナーノーツです。お使いのスマートフォンにダウンロードして、ブラウザで開いてください。ダウンロード後はオフラインでも動作します。</p>
-  <a class="btn" href="https://github.com/reverves/turn-the-corner/releases/download/v1.0/Turn_the_Corner_digital-liner-notes.html">
-    <div class="t">歌詞カード版をダウンロード</div>
-    <div class="d">155KB ／ 歌詞とクレジットのみの軽量版です。</div>
+  <p>購入者特典のインタラクティブ版ライナーノーツです。ボタンを押すと、そのままブラウザで開きます。</p>
+  <a class="btn" href="player.html">
+    <div class="t">プレイヤー版を開く（音源入り）</div>
+    <div class="d">全9曲を再生しながら歌詞を追えます。音源はストリーミング再生のため、インターネット接続が必要です。</div>
   </a>
-  <a class="btn" href="https://github.com/reverves/turn-the-corner/releases/download/v1.0/Turn_the_Corner_digital-liner-notes_player.html">
-    <div class="t">プレイヤー版をダウンロード</div>
-    <div class="d">97MB ／ 全9曲の音源入り。再生しながら歌詞を追えます。容量が大きいので、Wi-Fi環境でのダウンロードをおすすめします。</div>
+  <a class="btn" href="lyrics.html">
+    <div class="t">歌詞カード版を開く（軽量）</div>
+    <div class="d">歌詞とクレジットのみのバージョンです。</div>
   </a>
-  <p class="note">開き方：ダウンロードが終わったら、ブラウザのダウンロード一覧からファイルを開いてください。</p>
-  <p class="note">推奨環境：プレイヤー版は iOS 15以降（iPhone 8以降）を推奨します。ロック画面からの操作は iOS 17以降で使えます。歌詞カード版は古い機種でもご覧いただけます。</p>
+  <h2>DOWNLOAD（オフライン用）</h2>
+  <p style="font-size:13px;line-height:1.9;margin-top:12px">ファイルとして保存したい方はこちら。ダウンロードしたHTMLファイルを開くには、Documentsなどのファイル管理アプリが必要です（iPhone標準のプレビューでは正しく動作しません）。</p>
+  <a class="dl" href="https://github.com/reverves/turn-the-corner/releases/download/v1.0/Turn_the_Corner_digital-liner-notes_player.html">
+    プレイヤー版をダウンロード（97MB）
+    <div class="d">全9曲の音源入り。Wi-Fi環境でのダウンロードをおすすめします。</div>
+  </a>
+  <a class="dl" href="https://github.com/reverves/turn-the-corner/releases/download/v1.0/Turn_the_Corner_digital-liner-notes.html">
+    歌詞カード版をダウンロード（155KB）
+    <div class="d">歌詞とクレジットのみの軽量版です。</div>
+  </a>
+  <p class="note">推奨環境：iPhoneのSafariでの閲覧を推奨します。プレイヤー版（Web版・ダウンロード版とも）は iOS 15以降（iPhone 8以降）を推奨します。ロック画面からの操作は iOS 17以降で使えます。</p>
 </main>
 </body>
 </html>
