@@ -1,0 +1,12 @@
+{
+  "name": "Turn the Corner – Digital Liner Notes",
+  "short_name": "Turn the Corner",
+  "start_url": "player.html",
+  "display": "standalone",
+  "background_color": "#243620",
+  "theme_color": "#243620",
+  "icons": [
+    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png"}
+  ]
+}
