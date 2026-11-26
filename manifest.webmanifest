@@ -1,7 +1,7 @@
 {
   "name": "Turn the Corner – Digital Liner Notes",
   "short_name": "Turn the Corner",
-  "start_url": "player.html",
+  "start_url": "lyrics.html",
   "display": "standalone",
   "background_color": "#243620",
   "theme_color": "#243620",
